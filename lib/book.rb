@@ -9,9 +9,6 @@ class Book
   end
 
   attr_accessor :author
-
-  def page_count
-    @page_count
-  end
+  attr_accessor :page_count
 
 end
