@@ -4,7 +4,7 @@ class Shoe
     @brand = brand
   end
   attr_reader :brand
-  attr_accessor :color, :size, :material, :condition
+  attr_accessor :color, :size, :material, :condition, :cobble
 
   def cobble
     puts "Your shoe is as good as new!"
