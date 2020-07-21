@@ -1,7 +1,6 @@
 # Make your shoe class here!
 class Shoe
-  def initialize(name)
-    @name = name
+  def initialize(title)
+    @title = title
   end
 end
-  
