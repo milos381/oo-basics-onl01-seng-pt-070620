@@ -7,8 +7,8 @@ class Book
   def title
     @title
   end
-  def author
-    @author
+  def author=(author)
+    @author = author
   end
   def page_count
     @page_count
